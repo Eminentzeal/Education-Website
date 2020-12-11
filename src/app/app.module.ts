@@ -3,10 +3,34 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CourseContentComponent } from './course-content/course-content.component';
+import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
+import { InstructorProfileComponent } from './instructor-profile/instructor-profile.component';
+import { LoginInstructorComponent } from './login-instructor/login-instructor.component';
+import { LoginUserComponent } from './login-user/login-user.component';
+import { ParticularCourseComponent } from './particular-course/particular-course.component';
+import { RegisterInstructorComponent } from './register-instructor/register-instructor.component';
+import { RegisterUserComponent } from './register-user/register-user.component';
+import { ResetPasswordComponent } from './reset-password/reset-password.component';
+import { SuperAdminComponent } from './super-admin/super-admin.component';
+import { UserProfileComponent } from './user-profile/user-profile.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CourseContentComponent,
+    FooterComponent,
+    HomeComponent,
+    InstructorProfileComponent,
+    LoginInstructorComponent,
+    LoginUserComponent,
+    ParticularCourseComponent,
+    RegisterInstructorComponent,
+    RegisterUserComponent,
+    ResetPasswordComponent,
+    SuperAdminComponent,
+    UserProfileComponent
   ],
   imports: [
     BrowserModule,
