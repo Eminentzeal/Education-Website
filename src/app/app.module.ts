@@ -15,6 +15,7 @@ import { RegisterUserComponent } from './register-user/register-user.component';
 import { ResetPasswordComponent } from './reset-password/reset-password.component';
 import { SuperAdminComponent } from './super-admin/super-admin.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
     RegisterUserComponent,
     ResetPasswordComponent,
     SuperAdminComponent,
-    UserProfileComponent
+    UserProfileComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
