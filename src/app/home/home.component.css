@@ -9,10 +9,18 @@
 
 .card-bg {
   background: #160D38;
-  max-width: 40%;
-  height: 100%;
-  border-radius: 0 0 18.125rem 0;
+  max-width: 50%;
+   height: 100%;
+  border-radius: 0 0 5.125rem 0;
 }
+
+.card-body {
+  position: relative;
+  top: 18rem;
+  right: -5.5rem;
+}
+
+
 
 .course-category {
 	padding: 2rem 0rem 0.5rem 0rem;
@@ -70,7 +78,22 @@
 	width: 10rem;
 }
 
-@media only screen and (max-width: 768px) {
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .card-bg {
+    height: 100%;
+    border-radius: 0 0 95px 0;
+  }
+
   .card-title {
     font-size: 1.5rem;
   }
@@ -79,3 +102,12 @@
     font-size: 0.8rem;
   }
 }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+	.landing-text {
+    max-width: 80%;
+  }
+
+}
+
