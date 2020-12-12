@@ -3,22 +3,42 @@
   padding: 0px;
 }
 
+.mobile-img {
+width: 100%;
+}
+
 .card-img-overlay {
   padding: 0px;
+  display: none;
 }
 
 .card-bg {
   background: #160D38;
   max-width: 50%;
-   height: 100%;
-  border-radius: 0 0 5.125rem 0;
+  height: 100%;
+  border-radius: 0 0 7rem 0;
 }
 
-.card-body {
-  position: relative;
-  top: 18rem;
-  right: -5.5rem;
+
+
+.landing-text {
+  max-width: 80%;
 }
+
+.landing{
+  position: relative;
+  top: 3rem;
+  right: -1rem;
+}
+
+.landing-title {
+  font-size: 1.5rem;
+}
+
+.landing-text {
+  font-size: 0.5rem;
+}
+
 
 .course-category {
 	padding: 2rem 0rem 0.5rem 0rem;
@@ -76,14 +96,11 @@
 	width: 10rem;
 }
 
-
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {}
 
-
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {}
-
 
 /* Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -92,20 +109,28 @@
     border-radius: 0 0 200px 0;
   }
 
-  .card-title {
-    font-size: 1.5rem;
+  .landing{
+    position: relative;
+    top: 5rem;
+    right: -2rem;
   }
 
-  .card-text {
-    font-size: 0.8rem;
+  .landing-title {
+    font-size: 2rem;
+  }
+
+  .landing-text {
+    font-size: 1rem;
+  }
+
+  .card-img-overlay {
+    display: block;
   }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-	.landing-text {
-    max-width: 80%;
-  }
 
+/*  */
 }
 
