@@ -120,10 +120,8 @@ width: 100%;
   
   .landing-desktop {
     display: block;
-    /* position: relative; */
-    top: 5rem;
-    right: -1rem;
   }
+  
   
   .landing-title {
     font-size: 2rem;
