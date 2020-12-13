@@ -3,42 +3,13 @@
   padding: 0px;
 }
 
+.card {
+  border: none;
+  border-radius: 0;}
+
 .mobile-img {
 width: 100%;
 }
-
-.card-img-overlay {
-  padding: 0px;
-  display: none;
-}
-
-.card-bg {
-  background: #160D38;
-  max-width: 50%;
-  height: 100%;
-  border-radius: 0 0 7rem 0;
-}
-
-
-
-.landing-text {
-  max-width: 80%;
-}
-
-.landing{
-  position: relative;
-  top: 3rem;
-  right: -1rem;
-}
-
-.landing-title {
-  font-size: 1.5rem;
-}
-
-.landing-text {
-  font-size: 0.5rem;
-}
-
 
 .course-category {
 	padding: 2rem 0rem 0.5rem 0rem;
@@ -100,32 +71,60 @@ width: 100%;
 @media (min-width: 1200px) {}
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+  .landing-desktop {
+    top: 15rem;
+    right: -5.5rem;
+  }
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .card-bg {
+.cio-mob {
+  display: none;
+}
+
+  .cbg-desktop {
     height: 100%;
     border-radius: 0 0 200px 0;
   }
 
-  .landing{
+  .cio-desktop {
+    padding: 0px;
+    display: none;
+  }
+  
+  .cbg-desktop {
+    background: #160D38;
+    max-width: 50%;
+    height: 100%;
+    border-radius: 0 0 7rem 0;
+  }
+  
+  .landing-desktop {
     position: relative;
     top: 5rem;
-    right: -2rem;
+    right: -1rem;
   }
-
+  
   .landing-title {
     font-size: 2rem;
   }
-
+  
   .landing-text {
+    max-width: 80%;
     font-size: 1rem;
   }
 
-  .card-img-overlay {
+  .cio-desktop {
     display: block;
   }
+
+  .inst-wrap {
+
+    margin: 15% 0 0% 10%;
+  }
+  
 }
 
 /* Small devices (landscape phones, 576px and up) */
