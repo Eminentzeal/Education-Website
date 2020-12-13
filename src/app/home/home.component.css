@@ -5,10 +5,19 @@
 
 .card {
   border: none;
-  border-radius: 0;}
+  border-radius: 0;
+}
 
 .mobile-img {
 width: 100%;
+}
+
+.landing-desktop {
+  display: none;
+}
+
+.bg {
+  background: #160D38;
 }
 
 .course-category {
@@ -68,11 +77,18 @@ width: 100%;
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+
+}
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .container {
+    max-width: 81.25rem;
+  }
+
   .landing-desktop {
+    position: relative;
     top: 15rem;
     right: -5.5rem;
   }
@@ -80,7 +96,11 @@ width: 100%;
 
 /* Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-.cio-mob {
+  .container {
+    /* max-width: 650px; */
+  }
+  
+  .cio-mob {
   display: none;
 }
 
@@ -91,7 +111,7 @@ width: 100%;
 
   .cio-desktop {
     padding: 0px;
-    display: none;
+    display: block;
   }
   
   .cbg-desktop {
@@ -102,7 +122,8 @@ width: 100%;
   }
   
   .landing-desktop {
-    position: relative;
+    display: block;
+    /* position: relative; */
     top: 5rem;
     right: -1rem;
   }
@@ -121,15 +142,19 @@ width: 100%;
   }
 
   .inst-wrap {
-
     margin: 15% 0 0% 10%;
   }
   
+  .bg {
+    display: none;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 
-/*  */
+  .landing-text-mob {
+    max-width: 100%;
+  }
 }
 
