@@ -6,6 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { InstructorProfileComponent } from './instructor-profile/instructor-profile.component';
 import { LoginInstructorComponent } from './login-instructor/login-instructor.component';
 import { LoginUserComponent } from './login-user/login-user.component';
+import { NavbarComponent } from './navbar/navbar.component';
 import { ParticularCourseComponent } from './particular-course/particular-course.component';
 import { RegisterInstructorComponent } from './register-instructor/register-instructor.component';
 import { RegisterUserComponent } from './register-user/register-user.component';
@@ -34,6 +35,9 @@ const routes: Routes = [
 
     { path: 'login-user',
     component: LoginUserComponent},
+
+    { path: 'navbar',
+    component: NavbarComponent},
   
     { path: 'particular-course',
     component: ParticularCourseComponent},
