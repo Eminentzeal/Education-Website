@@ -1,0 +1,17 @@
+.first{
+    text-align: center;
+    padding: 1rem;
+
+}
+
+.container > div{
+background-color: blue;
+padding: 1rem;
+}
+
+.wrapper{
+    display: grid;
+    display:grid-gap;
+    background:#eee;
+    padding: 1em;
+}
