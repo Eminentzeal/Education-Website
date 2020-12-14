@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "Education-Website"
+  "defaultProject": "Education-Website",
+  "cli": {
+    "analytics": false
+  }
 }
