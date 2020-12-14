@@ -3,15 +3,21 @@
   padding: 0px;
 }
 
-.card-img-overlay {
-  padding: 0px;
+.card {
+  border: none;
+  border-radius: 0;
 }
 
-.card-bg {
+.mobile-img {
+width: 100%;
+}
+
+.landing-desktop {
+  display: none;
+}
+
+.bg {
   background: #160D38;
-  max-width: 40%;
-  height: 100%;
-  border-radius: 0 0 18.125rem 0;
 }
 
 .course-category {
@@ -21,6 +27,7 @@
 .card-content {
 	margin: 5rem auto;
 }
+
 .shadows {
 	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
 }
@@ -70,12 +77,80 @@
 	width: 10rem;
 }
 
-@media only screen and (max-width: 768px) {
-  .card-title {
-    font-size: 1.5rem;
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container {
+    max-width: 81.25rem;
   }
 
-  .card-text {
-    font-size: 0.8rem;
+  .landing-desktop {
+    position: relative;
+    top: 15rem;
+    right: -5.5rem;
   }
 }
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+  .cio-mob {
+  display: none;
+}
+
+  .cbg-desktop {
+    height: 100%;
+    border-radius: 0 0 200px 0;
+  }
+
+  .cio-desktop {
+    padding: 0px;
+    display: block;
+  }
+  
+  .cbg-desktop {
+    background: #160D38;
+    max-width: 50%;
+    height: 100%;
+    border-radius: 0 0 7rem 0;
+  }
+  
+  .landing-desktop {
+    display: block;
+  }
+  
+  
+  .landing-title {
+    font-size: 2rem;
+  }
+  
+  .landing-text {
+    max-width: 80%;
+    font-size: 1rem;
+  }
+
+  .cio-desktop {
+    display: block;
+  }
+
+  .inst-wrap {
+    margin: 15% 0 0% 10%;
+  }
+  
+  .bg {
+    display: none;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+  .landing-text-mob {
+    max-width: 100%;
+  }
+}
+

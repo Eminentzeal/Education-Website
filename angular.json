@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/font-awesome/css/font-awesome.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -120,5 +121,8 @@
       }
     }
   },
-  "defaultProject": "Education-Website"
+  "defaultProject": "Education-Website",
+  "cli": {
+    "analytics": false
+  }
 }

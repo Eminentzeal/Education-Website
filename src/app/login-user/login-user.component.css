@@ -3,6 +3,7 @@
 .log {
     text-align: center;
     margin-top: 30px;
+    font-size: 1.5em;
 }
 .row {
     display: flex;
@@ -67,4 +68,23 @@
   .span {
       color: blue;
   }
-  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 0;
+  }
+  .inputIcon input[type=text]{
+    padding-left: 50px;
+  }
+  .inputIcon {
+    position: relative;
+  }
+  .inputIcon i{
+    position: absolute;
+    left: 15px;
+    top: 19px;
+    font-size: 20px;
+    color: gray;
+   
+  }
