@@ -6,4 +6,11 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-a {text-decoration: none;}
+a {
+  text-decoration: none;
+  color: #212529;
+}
+
+a:hover {
+  text-decoration: none;
+}
