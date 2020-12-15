@@ -10,7 +10,9 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ParticularCourseComponent } from './particular-course/particular-course.component';
 import { RegisterInstructorComponent } from './register-instructor/register-instructor.component';
 import { RegisterUserComponent } from './register-user/register-user.component';
+import { ResetCodeComponent } from './reset-code/reset-code.component';
 import { ResetPasswordComponent } from './reset-password/reset-password.component';
+import { ResetSuccessfulComponent } from './reset-successful/reset-successful.component';
 import { SuperAdminComponent } from './super-admin/super-admin.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 
@@ -55,7 +57,13 @@ const routes: Routes = [
     component:SuperAdminComponent},
 
   { path: 'user-profile',
-    component: UserProfileComponent}
+    component: UserProfileComponent},
+
+  { path: 'reset-code',
+    component: ResetCodeComponent},
+
+  { path: 'reset-successful',
+    component: ResetSuccessfulComponent},
 ];
 
 @NgModule({

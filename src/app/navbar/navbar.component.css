@@ -1,4 +1,4 @@
-.navbar { 
+.nav { 
     min-height: 20vh; 
     background-color: #160d38;
   }  
@@ -14,14 +14,6 @@
     padding: 14px 16px;
     text-decoration: none;
   } 
-  
-  /* .navbar-toggler {
-    background-color: blanchedalmond;
-  }
-  
-  .navbar-toggler-icon {
-    color: #ddd;
-  } */
   
   h4 {
     color: white;
