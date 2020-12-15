@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
+import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { CourseContentComponent } from './course-content/course-content.component';
 import { FooterComponent } from './footer/footer.component';
@@ -40,7 +41,8 @@ import { ResetSuccessfulComponent } from './reset-successful/reset-successful.co
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
