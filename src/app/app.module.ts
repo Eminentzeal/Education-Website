@@ -16,6 +16,8 @@ import { ResetPasswordComponent } from './reset-password/reset-password.componen
 import { SuperAdminComponent } from './super-admin/super-admin.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { ResetCodeComponent } from './reset-code/reset-code.component';
+import { ResetSuccessfulComponent } from './reset-successful/reset-successful.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { NavbarComponent } from './navbar/navbar.component';
     ResetPasswordComponent,
     SuperAdminComponent,
     UserProfileComponent,
-    NavbarComponent
+    NavbarComponent,
+    ResetCodeComponent,
+    ResetSuccessfulComponent
   ],
   imports: [
     BrowserModule,

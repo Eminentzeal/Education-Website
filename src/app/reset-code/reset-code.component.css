@@ -1,0 +1,21 @@
+.container {
+    margin: 10% auto;
+    text-align: center;
+}
+
+p{
+  margin-bottom: 3rem;
+}
+
+input {
+  width: 50%;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.btn {
+  margin: 2rem;
+  background: #160D38;
+  border-radius: 0px;
+  width: 25%;
+}
