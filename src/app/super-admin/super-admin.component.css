@@ -1,0 +1,42 @@
+.first{
+    text-align: center;
+    padding: 3rem;
+
+}
+.pig{
+    padding: 2%;
+}
+.prim {
+background-color: #160d38;
+padding: 10px;
+margin: 50px;
+text-align: center;
+color: white;
+}
+
+.rime {
+    background-color: #160d38;
+    padding: 10px;
+    margin: 50px;
+    text-align: center;
+    color:white;
+    }
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1em;
+    grid-gap:20px;
+    width: 50%;
+    text-align: center;
+    margin-left: 50px;
+
+}
+
+.post,
+.m-user,
+.m-instructor {
+    border: 1px solid black;
+    padding: 10px;
+    
+}

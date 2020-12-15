@@ -1,17 +1,80 @@
 .first{
-    text-align: center;
-    padding: 1rem;
-
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 50px;
 }
 
-.container > div{
-background-color: blue;
-padding: 1rem;
-}
-
-.wrapper{
+.container{
     display: grid;
-    display:grid-gap;
-    background:#eee;
-    padding: 1em;
+    grid-gap: 8rem;
+    grid-template-columns: repeat(3, 2fr);
+    /* -template-rows: repeat(3, 2frgrid); */
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-left: 2mkrem;
+    
 }
+
+.housing{
+    background-color:#ddd ;
+}
+
+.cold{
+    background-color: white;
+    width: 4%;
+}
+
+.imageText {
+    margin: 0 5rem;
+}
+/* .wrappa {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 20rem 0 20rem;
+} */
+
+/* .text {
+    margin-right: 10rem;
+} */
+
+.wrappa{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 0 0 3rem;
+}
+
+.text {
+    padding: 0 20rem 0 .8rem;
+}
+
+.Uwrap {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2rem 0 0 3rem; 
+}
+
+.text2 {
+    padding: 0 20rem 0 .8rem;
+}
+
+.para{
+    text-align: center;
+    margin-left: 50px;
+    padding: 2rem;
+}
+
+.second{
+    padding-top: 100px;
+    margin-left: 15rem;
+    padding-bottom: 2px;
+}
+
+.third{
+    padding-bottom: 5rem;
+
+}
+
+
