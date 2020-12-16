@@ -15,28 +15,48 @@ color: white;
 }
 
 .rime {
+    display: flex;
     background-color: #160d38;
-    padding: 10px;
-    margin: 50px;
+    padding: 2px;
+     margin-left: 100px;    
     text-align: center;
     color:white;
+    justify-content: center;
+    width: 900px;
+    }
+
+    .view {
+        padding-left: 2px;
     }
 
 .wrapper{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 1em;
+    padding: 50px 19%;
     grid-gap:20px;
-    width: 50%;
+    width: 10re0%;
     text-align: center;
-    margin-left: 50px;
+    /* justify-self: center; */
+    /* margin-left: 50px; */
+}
 
+.container{
+    text-align: center;
 }
 
 .post,
 .m-user,
 .m-instructor {
-    border: 1px solid black;
+    border: 2px solid black;
     padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
     
+}
+
+.see{
+/* position: relative; */
+  margin-left: 70px;  
+    /* text-align-last: center; */
+
 }
