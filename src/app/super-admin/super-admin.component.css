@@ -3,6 +3,14 @@
   text-align: center;
 }
 
+.icon-text-wrap h3 {
+  margin-top: 2rem;
+}
+
+.wrap-noti-text {
+  margin: 3rem 0 3rem 0;
+}
+
 .bg {
   color: #fff;
   background: #160d38;
@@ -13,7 +21,9 @@
 }
 
 .btn {
-  margin-right: 2rem;
+  margin-right: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 0;
 }
 
 .btn-3 {
@@ -28,15 +38,18 @@
 /* Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .bg-buttom {
-    margin-bottom:20% ;
+    margin-bottom:15% ;
   }
 
   .btn {
-    margin-right: 12rem;
+    margin-right:6rem;
+    padding: 0.5rem 2rem;
+   
   }
 
   .btn-3 {
     margin-right: 0rem;
   }
+
 
 }
