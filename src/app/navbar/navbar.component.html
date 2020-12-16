@@ -1,7 +1,7 @@
 <div class="nav">
   <nav class="topnav navbar navbar-expand-lg">
     <div class=" logo-brandname">
-      <a class="logo"><img src="assets/images/logo.png" alt=""></a> 
+      <a class="logo" routerLink="/home"><img src="assets/images/logo.png" alt=""></a> 
       <h4>Unveil Arewa</h4>
     </div>
       <div class="dropdown">
@@ -24,16 +24,16 @@
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item"> 
               <!-- <div class="bisque-tinyline"></div> -->
-             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+             <a class="nav-link" href="#" routerLink="/home">Home <span class="sr-only">(current)</span></a>
             </li>
   
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                Rigester
+                Register
               </a>
               <div class="dropdown-content">
-                <a class="dropdown-item" href="#">Rigester as Instructor</a>
-                <a class="dropdown-item" href="#">Rigester as User</a>
+                <a class="dropdown-item" href="#" routerLink="/register-instructor">Register as Instructor</a>
+                <a class="dropdown-item" href="#" routerLink="/register-user">Register as User</a>
               </div>
             </li>
             <li class="nav-item dropdown">
@@ -41,8 +41,8 @@
                 Login
               </a>
               <div class="dropdown-content">
-                <a class="dropdown-item" href="#">Login as Instructor</a>
-                <a class="dropdown-item" href="#">Login as User</a>
+                <a class="dropdown-item" href="#" routerLink="/login-instructor">Login as Instructor</a>
+                <a class="dropdown-item" href="#" routerLink="/login-user">Login as User</a>
               </div>
             </li>
           </ul>

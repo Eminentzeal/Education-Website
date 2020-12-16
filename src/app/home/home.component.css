@@ -127,7 +127,8 @@ width: 100%;
   
   
   .landing-title {
-    font-size: 2rem;
+    font-size: 4rem;
+    font-weight: 1000;
   }
   
   .landing-text {
