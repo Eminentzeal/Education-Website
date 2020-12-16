@@ -1,7 +1,7 @@
 <div class="header">
   <div class="main-header-container main-header">
       <div class="logo">
-          <img class="w-100" src="assets/images/logo.png" alt="">
+         <a routerlink="/home"><img class="w-100" src="assets/images/logo.png" alt=""></a> 
       </div>
       <div class="nav1">
           <div class="navbar-input">
@@ -32,15 +32,15 @@
               <div class="list">
                   <ul class="">
                       <li class="nav-item"> 
-                          <a class="" href="#">Home <span class="sr-sonly"></span></a>
+                          <a class="" href="#" routerlink="/home">Home <span class="sr-sonly"></span></a>
                       </li>
                       <li class="nav-item dropdown">
                           <a class=" dropdown-toggle" href="#" sid="navbardrop" data-toggle="dropdown">
                           Register
                           </a>
                           <div class="dropdown-content">
-                              <a class="dropdown-item" href="#">Register as Instructor</a>
-                              <a class="dropdown-item" href="#">Register as User</a>
+                              <a class="dropdown-item" href="#" routerlink="/register-instructor">Register as Instructor</a>
+                              <a class="dropdown-item" href="#" routerlink="/register-user">Register as User</a>
                           </div>
                       </li> 
                       <li class="nav-item dropdown">
@@ -48,8 +48,8 @@
                           Login
                           </a>
                           <div class="dropdown-content">
-                              <a class="dropdown-item" href="#">Login as Instructor</a>
-                              <a class="dropdown-item" href="#">Login as User</a>
+                              <a class="dropdown-item" href="#" routerlink="/login-instructor">Login as Instructor</a>
+                              <a class="dropdown-item" href="#" routerlink="/login-user">Login as User</a>
                           </div>
                       </li>
                   </ul>

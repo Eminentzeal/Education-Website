@@ -97,7 +97,9 @@ width: 100%;
 
 /* Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  
+  .desktop-img {
+    width: 50%;
+  }
   .cio-mob {
   display: none;
 }
@@ -116,16 +118,16 @@ width: 100%;
     background: #160D38;
     max-width: 50%;
     height: 100%;
-    border-radius: 0 0 7rem 0;
+    border-radius: 0 0 27rem 0;
   }
   
   .landing-desktop {
     display: block;
   }
-  
-  
+
   .landing-title {
-    font-size: 2rem;
+    font-size: 4rem;
+    font-weight: 1000;
   }
   
   .landing-text {
@@ -149,8 +151,14 @@ width: 100%;
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 
+  .landing-title-mob {
+    font-weight: 900;
+  }
+
   .landing-text-mob {
     max-width: 100%;
+    font-weight: 800;
   }
+
 }
 
