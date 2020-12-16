@@ -1,136 +1,99 @@
-.nav { 
-    min-height: 20vh; 
-    background-color: #160d38;
-  }  
-  
-  .logo {
-    margin-left:1rem;
-  }
-  
-   .navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-  } 
-  
-  h4 {
-    color: white;
-  }
-  
-  .dropbnt {
-    margin-top: 3rem;
-    margin-left:2rem;
-  } 
-  
-  .dropdown-content {
-    margin-bottom: 1rem;
-  }
-  
-  .bisque-tinyline { 
-    margin: 1.5rem auto;
-    width: 1499%;
-    border-top: 3px solid #ffe4c4;
-    margin-bottom: 1rem;
-  }
-  
-  .navbar-collapse {
-    margin-left: 56rem;
-    margin-top: 1.4rem;
-  }
-  
-  .menu {
-    margin-left: 55rem;
-  } 
-  
-   .form-inline {
-    position: absolute;;
-    bottom: 5.9rem;
-    right:+10rem;
-  } 
-  
-  .btn {
-    background-color: rgb(221, 141, 155);
-    padding-right: 25px;
-  }
-  
-  /* Style the dropdown content (hidden by default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  /* Style the links inside the dropdown */
-  .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  /* Add a dark background on topnav links and the dropdown button on hover */
-  .topnav a:hover, .dropdown:hover .dropbtn {
-    background-color: #555;
-    color: white;
-  }
-  
-  /* Add a grey background to dropdown links on hover */
-  .dropdown-content a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  /* Show the dropdown menu when the user moves the mouse over the dropdown button */
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  
-  
-  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-  @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child), .dropdown .dropbtn {
-      display: none;
-    }
-    .topnav a.icon {
-      float: right;
-      display: block;
-    }
-  }
-  
-  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-  @media screen and (max-width: 600px) {
-    .topnav.responsive {position: relative;}
-    .topnav.responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-    .topnav.responsive .dropdown {float: none;}
-    .topnav.responsive .dropdown-content {position: relative;}
-    .topnav.responsive .dropdown .dropbtn {
-      display: block;
-      width: 100%;
-      text-align: left;
-    }
-    .bisque-tinyline { 
-      display: none;
-    }
-  }
-  
+.header {
+  padding: 1.3%;
+  background-color: #160d38;
+}
 
-  
-  
-  
+.main-header-container {
+  max-width: 1300px;
+  width: 94%;
+  margin: 0 auto;
+}
+
+.main-header {
+display: flex;
+align-items: center;
+}
+
+.logo {
+  width: 60px;
+}
+
+.nav1 {
+  width: calc(100% - 50px); 
+}
+
+.form-inline{
+  float: right;
+}
+
+.navbar-input {
+  display: block;
+}
+
+.navbar-input::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.navbar-main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 30px 10%; */
+}
+
+.list a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}  
+
+.nav-item {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.bisque-tinyline { 
+  border-top: 3px solid #ffe4c4;
+}
+
+.btn {
+  background-color: rgb(221, 141, 155);
+  padding: 5px 8%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
