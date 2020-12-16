@@ -1,62 +1,42 @@
-.first{
-    text-align: center;
-    padding: 3rem;
-
-}
-.pig{
-    padding: 2%;
-}
-.prim {
-background-color: #160d38;
-padding: 10px;
-margin: 50px;
-text-align: center;
-color: white;
+.container {
+  margin: 20% auto;
+  text-align: center;
 }
 
-.rime {
-    display: flex;
-    background-color: #160d38;
-    padding: 2px;
-     margin-left: 100px;    
-    text-align: center;
-    color:white;
-    justify-content: center;
-    width: 900px;
-    }
-
-    .view {
-        padding-left: 2px;
-    }
-
-.wrapper{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 50px 19%;
-    grid-gap:20px;
-    width: 10%;
-    text-align: center;
-    /* justify-self: center; */
-    /* margin-left: 50px; */
+.bg {
+  color: #fff;
+  background: #160d38;
 }
 
-.container{
-    text-align: center;
+.bg-buttom {
+  margin-bottom:15% ;
 }
 
-.post,
-.m-user,
-.m-instructor {
-    border: 2px solid black;
-    padding: 10px;
-    margin-left: 10px;
-    border-radius: 5px;
-    
+.btn {
+  margin-right: 2rem;
 }
 
-.see{
-/* position: relative; */
-  margin-left: 70px;  
-    /* text-align-last: center; */
+.btn-3 {
+  margin-right: 0rem;
+}
+
+
+
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .bg-buttom {
+    margin-bottom:20% ;
+  }
+
+  .btn {
+    margin-right: 12rem;
+  }
+
+  .btn-3 {
+    margin-right: 0rem;
+  }
 
 }
