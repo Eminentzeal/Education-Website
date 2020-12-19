@@ -1,57 +1,98 @@
-<div class="housing">
-<div class="first"> Designemy   ----   Formal Course ----   Mathematics</div>
 
-<div class="second">
-<h2>Mathematics</h2>
+<!-- Course Section -->
+<section class="container-fluid">
+  <section class="container  ">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Unveil</a></li>
+        <li class="breadcrumb-item"><a href="#">Formal Course</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Mathematics</li>
+      </ol>
+    </nav>
+  
+    <div class="course">
+      <h2>Mathematics</h2>
+      <p>Beginners Class</p>
+      <p>Complete Course</p>
+    </div>
 
-<h3>Syllables</h3> 
-</div>
-
-
-<div class="container"> <div>
-  <img src="./assets/images/Rectangle 5.jpg" alt="">
-    <h2 class="cold"> Fractions</h2>
-     </div>
-        <div>
-    <img src="./assets/images/Rectangle 2.jpg" alt="">
-         <h2 class="cold"> Trignonometry</h2>
-         </div>
-         <div>
-    <img src="./assets/images/Rectangle 3.png" alt="">
-         <h2 class="cold"> Statistics</h2>
-         </div>
-         <div>
-    <img src="./assets/images/Rectangle 4.jpg" alt="">
-        <h2 class="cold"> Logic </h2>
-        </div>
-        <div>
-    <img src="./assets/images/Rectangle 111.jpg" alt="">
-         <h2 class="cold">Algebra</h2>
-         </div>
-         <div>
-    <img src="./assets/images/Rectangle 6.jpg" alt="">
-          <h2 class="cold">  Calculus </h2>
+    <!-- row-one -->
+    <div class="row row-cols-1 row-cols-md-3 g-4 row-one">
+      <div class="col">
+        <div class="card h-100 shadows">
+          <a routerLink="/course-content"><img src="/assets/images/alg.jpg" class="card-img-top" alt="..."></a>
+          <div class="card-body">
+            <a routerLink="/course-content"><h4 class="card-title">Algebra</h4></a>
           </div>
-</div>
-</div>
-
-<section class="imageText">
-    <h2 class="third">Course Review</h2>
-
-    <div class="wrappa">
-        <img src="./assets/images/Ellipsse 85.png" alt="">
-       <p class="text">Dempfa business school gave me an invaluable depth of knowledge in global business and the roles each department ploys within an organisation <br> Faith Kwandi Demfa graduate
-        </p> 
+        </div>
+      </div>
+  
+      <div class="col">
+        <div class="card h-100 shadows">
+          <img src="/assets/images/meas.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title">Measurement</h4>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col">
+        <div class="card h-100 shadows">
+          <img src="/assets/images/stat.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title">Statistics</h4>
+          </div>
+        </div>
+      </div>
     </div>
-    
-    <div class="Uwrap">
-        <img src="./assets/images/Ellipse 84.png" alt="">
-        <p class="text2">
-            The skills learnt at Demfo opened up doors for me globally, and were a factor in the success of me me achieving my dream job. i'd recommend it to anyone looking to improve their business skills".<br> Auwal molinto Demfa gradute
-        </p>
+  
+    <!-- row-two -->
+    <div class="row row-cols-1 row-cols-md-3 g-4 row-two">
+      <div class="col">
+        <div class="card h-100 shadows">
+          <img src="/assets/images/log.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title">Logic</h4>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col">
+        <div class="card h-100 shadows">
+          <img src="/assets/images/fra.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title">Faction</h4>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col">
+        <div class="card h-100 shadows">
+          <img src="/assets/images/cal.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title">Calculus</h4>
+          </div>
+        </div>
+      </div>
     </div>
+  </section>
 </section>
 
- 
- 
-
+<section class="container-fluid review-wrap">
+  <div class="container">
+    <section class="review">
+      <h5>Course Review</h5>
+      <div class="comment">
+        <img src="/assets/images/elp.png" alt=""> 
+        <p>The formal courses I learnt has helped and set me apart from my peers in school and exposed me to a better idea of the courses.</p>
+      </div>
+      <p class="user-comment">~Faith Kwandi~ <span>Unveil Graduate</span></p>
+  
+      <div class="comment">
+        <img src="/assets/images/elp2.png" alt=""> 
+        <p>The baking skill I learnt on this platform has helped open up doors for me globally, and were a factor in the success of me achieving sustainable livelihood. I'd recommend it to anyone seeking to improve their baking skill.</p>
+      </div>
+      <p class="user-comment">~Auwal Molinto~ <span>Unveil Graduate</span></p>
+    </section>
+  </div>
+</section>

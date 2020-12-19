@@ -1,50 +1,50 @@
 .container-fluid{
-    margin-top: 20rem;
-    background-color: #160d38;
-    color: white;
-    padding: 2%; 
+  margin-top: 5rem;
+  background-color: #160d38;
+  color: white;
+  padding: 2%; 
 }
 
 .container {
-    max-width: 1300px;
-    width: 94%;
-    margin: 0 auto;
+  max-width: 1300px;
+  width: 94%;
+  margin: 0 auto;
 }
 
 .copyright {
-    font-size: 11px;
+  font-size: 11px;
 }
 
 .logo {
-width: 60px;
+  width: 60px;
 }
 
 
 .grid {
-    display: grid;
+  display: grid;
 }
 
 .follow {
-    font-size: 12px;
-    border-left:2px solid bisque ;
-    padding-left: 1rem;
-    height: 40px;
+  font-size: 12px;
+  border-left:2px solid bisque ;
+  padding-left: 1rem;
+  height: 40px;
 }
 
 .address{
-    font-size: 11px;   
+  font-size: 11px;   
 } 
 
 .footer{
-    display: grid;
-    grid-gap:2rem;
-    grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  grid-gap:2rem;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .fota2 {
-    display: grid;
-    grid-gap:1rem;
-    grid-template-columns: repeat(5, 1fr);
-    border-right:2px solid bisque ;
-    height: 40px;  
+  display: grid;
+  grid-gap:1rem;
+  grid-template-columns: repeat(5, 1fr);
+  border-right:2px solid bisque ;
+  height: 40px;  
 }
