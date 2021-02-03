@@ -20,11 +20,11 @@ const routes: Routes = [
   { path: '',
     component: HomeComponent},
 
-  { path: 'footer',
-    component: FooterComponent},
-
   { path: 'home',
     component: HomeComponent},
+
+  { path: 'footer',
+    component: FooterComponent},
 
   { path: 'course-content',
     component: CourseContentComponent},

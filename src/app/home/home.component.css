@@ -90,7 +90,7 @@ width: 100%;
 
   .landing-desktop {
     position: relative;
-    top: 15rem;
+    top: 2rem;
     right: -5.5rem;
   }
 }
@@ -118,7 +118,7 @@ width: 100%;
     background: #160D38;
     max-width: 50%;
     height: 100%;
-    border-radius: 0 0 27rem 0;
+    border-radius: 0 0 13rem 0;
   }
   
   .landing-desktop {
@@ -126,8 +126,10 @@ width: 100%;
   }
 
   .landing-title {
+    max-width: 100%;
     font-size: 4rem;
     font-weight: 1000;
+    margin: 20% 0 0 0;
   }
   
   .landing-text {
