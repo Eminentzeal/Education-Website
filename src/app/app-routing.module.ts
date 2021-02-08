@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { CourseContentComponent } from './course-content/course-content.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
+import { HomepageComponent } from './homepage/homepage.component';
 import { InstructorProfileComponent } from './instructor-profile/instructor-profile.component';
 import { LoginInstructorComponent } from './login-instructor/login-instructor.component';
 import { LoginUserComponent } from './login-user/login-user.component';
@@ -18,10 +19,10 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
 
 const routes: Routes = [
   { path: '',
-    component: HomeComponent},
+    component: HomepageComponent},
 
-  { path: 'home',
-    component: HomeComponent},
+  { path: 'homepage',
+    component: HomepageComponent},
 
   { path: 'footer',
     component: FooterComponent},

@@ -19,6 +19,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ResetCodeComponent } from './reset-code/reset-code.component';
 import { ResetSuccessfulComponent } from './reset-successful/reset-successful.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { HomepageComponent } from './homepage/homepage.component';
+import { NavComponent } from './nav/nav.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +39,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     UserProfileComponent,
     NavbarComponent,
     ResetCodeComponent,
-    ResetSuccessfulComponent
+    ResetSuccessfulComponent,
+    HomepageComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
