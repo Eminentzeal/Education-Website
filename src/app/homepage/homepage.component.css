@@ -3,7 +3,7 @@
 }
 .landing-bg {
   background: url(/assets/images/landing.png);
-  color: white;
+  color: rgb(102, 88, 88);
   text-align: center;
   height: 30rem;
 }
@@ -22,7 +22,6 @@
   padding-top: 9rem;
 }
 
-
 .cards {
   padding: 0;
 }
@@ -33,7 +32,7 @@
 }
 
 .card-img-top {
-  height: 10;
+  height: 100%;
 }
 
 .card-title {
@@ -49,7 +48,6 @@
 .btn {
   position: absolute;
   left: 50%;
-  /* top: 50%; */
   border-radius: 0;
   transform: translate(-50%, -50%);
   
@@ -75,6 +73,34 @@
 }
 
 .input-group-text {
+  width: 8rem;
+  margin: 0;
   background-color: transparent;
   border: none;
+}
+
+input,
+textarea {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: #160d38;
+}
+
+.section-5 {
+  background: #160d38;
+  color: #fff;
+  padding: 2rem;
+}
+
+span {
+  color: #fff;
+}
+
+.talk {
+  margin: 3rem;
+}
+
+.form {
+  width: 45%;
 }
