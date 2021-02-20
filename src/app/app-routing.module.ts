@@ -3,13 +3,10 @@ import { Routes, RouterModule } from '@angular/router';
 import { CourseContentComponent } from './course-content/course-content.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
-// import { HomeComponent } from './home/home.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { InstructorProfileComponent } from './instructor-profile/instructor-profile.component';
 import { LoginInstructorComponent } from './login-instructor/login-instructor.component';
 import { LoginUserComponent } from './login-user/login-user.component';
-import { NavComponent } from './nav/nav.component';
-// import { NavbarComponent } from './navbar/navbar.component';
 import { ParticularCourseComponent } from './particular-course/particular-course.component';
 import { RegisterInstructorComponent } from './register-instructor/register-instructor.component';
 import { RegisterUserComponent } from './register-user/register-user.component';
@@ -40,9 +37,6 @@ const routes: Routes = [
 
     { path: 'login-user',
     component: LoginUserComponent},
-
-    { path: 'nav',
-    component: NavComponent},
   
     { path: 'particular-course',
     component: ParticularCourseComponent},

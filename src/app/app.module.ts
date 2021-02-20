@@ -16,12 +16,18 @@ import { RegisterUserComponent } from './register-user/register-user.component';
 import { ResetPasswordComponent } from './reset-password/reset-password.component';
 import { SuperAdminComponent } from './super-admin/super-admin.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
-import { NavbarComponent } from './navbar/navbar.component';
 import { ResetCodeComponent } from './reset-code/reset-code.component';
 import { ResetSuccessfulComponent } from './reset-successful/reset-successful.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HomepageComponent } from './homepage/homepage.component';
-import { NavComponent } from './nav/nav.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MainNavComponent } from './main-nav/main-nav.component';
+import { LayoutModule } from '@angular/cdk/layout';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatIconModule } from '@angular/material/icon';
+import { MatListModule } from '@angular/material/list';
 
 @NgModule({
   declarations: [
@@ -38,18 +44,24 @@ import { NavComponent } from './nav/nav.component';
     ResetPasswordComponent,
     SuperAdminComponent,
     UserProfileComponent,
-    NavbarComponent,
     ResetCodeComponent,
     ResetSuccessfulComponent,
     HomepageComponent,
-    NavComponent
+    MainNavComponent
   ],
   imports: [
     BrowserModule,
     NgbModule,
     AppRoutingModule,
     FormsModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    BrowserAnimationsModule,
+    LayoutModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
