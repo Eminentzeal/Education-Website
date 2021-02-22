@@ -1,4 +1,4 @@
-.landing-wrap {
+.section-one {
   padding: 0;
   height: 100%;
 }
@@ -17,6 +17,7 @@
 }
 .landing-content {
   color: #fff;
+  padding-top: 9rem;
 }
 
 .top-txt {
@@ -28,14 +29,6 @@
   font-size: 10rem;
   font-weight: 900;
   letter-spacing: 2rem;
-}
-
-.landing-content {
-  padding-top: 9rem;
-}
-
-.cards {
-  height: 50%;
 }
 
 .landing-button {
@@ -53,7 +46,7 @@ transition: 1s;
 text-decoration: none;
 }
 
-.wrap {
+.section-two {
   background: #fff;
 }
 
@@ -61,18 +54,20 @@ text-decoration: none;
   box-shadow: none;
 }
 
+.c-title,
+.col-talk h3 {
+  font-size: 3rem;
+}
+
+.c-content,
+.col-talk p {
+  font-size: 1.5rem;
+}
+
 .card-wrap-two {
   box-shadow: none;
   background: #160d38;
   color: #fff;
-}
-
-.c-title {
-  font-size: 3rem;
-}
-
-.c-content {
-  font-size: 1.5rem;
 }
 
 .grid {
@@ -124,67 +119,12 @@ text-decoration: none;
   opacity: .4;
 }
 
-.card-body {
-  position: relative;
-  padding: 2rem;
-}
-
-.card-title {
-  font-size: 2rem;
-}
-
-.card-text {
-  padding-bottom: 2rem;
-}
-
-.btn {
-  position: absolute;
-  left: 50%;
-  border-radius: 0;
-  transform: translate(-50%, -50%);
-  
-}
-
-.card-bg {
-  background: #160d38;
-  color: #fff;
-}
-
-.card-bg .btn {
-  border-color: #fff;
-  color: #fff;
-}
-
-.sec3-card {
-  background: #5E4AAA;
-  color: #fff;
-}
-
-.section-4 {
-  margin:3rem auto;
-}
-
-.input-group-text {
-  width: 8rem;
-  margin: 0;
-  background-color: transparent;
-  border: none;
-}
-
-input,
-textarea {
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  background: #160d38;
-}
-
 .gc-container {
   background: #160d38;
 }
 
 .contact-wrap {
-  background: url(/assets/images/world.png);
+  background: url(/assets/images/world.jpg);
   background-size: cover;
   color: #fff;
 }
@@ -193,10 +133,24 @@ textarea {
   background: rgba(0, 0, 0, .8);
 }
 
-.talk {
-  margin: 3rem;
+.card-wrap-three {
+  background: transparent;
+  border: 2px solid #fff;
+  width: 80%;
 }
 
-.form {
-  width: 45%;
+.input-group-text {
+  /* width: 8rem; */
+  /* margin: 0; */
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
+
+input,
+textarea {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: transparent;
 }
