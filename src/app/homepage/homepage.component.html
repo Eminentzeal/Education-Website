@@ -12,22 +12,27 @@
 </section>
 
 <section class="wrap">
-  <mat-grid-list cols="2" rowHeight="2:1">
-    <mat-grid-tile>
-      <div>
-        <h3>Unveil</h3>
-        <p>An education platform focused on teaching new ideas,developing your skills and bringing out the best in you to expand your knowledge and to 
-        unveil inward potentials.</p>
-      </div>
+  <mat-grid-list cols="2" rowHeight="3:2">
+    <mat-grid-tile class="grid">
+      <mat-card class="card-wrap-one">
+        <mat-card-header>
+          <mat-card-title class="c-title">Unveil</mat-card-title>
+        </mat-card-header>
+        <mat-card-content class="c-content">
+          <p>
+            An education platform focused on teaching new ideas,developing your skills and bringing out the best in you to expand your knowledge and to unveil inward potentials.
+          </p>
+        </mat-card-content>
+      </mat-card>
+      
     </mat-grid-tile>
-    <mat-grid-tile>
-      <img src="assets/images/grphone.png" class="card-img-top" alt="two men with looking at a laptop">
+    <mat-grid-tile >
+      <img class="grid-img" src="assets/images/grphone.png" class="card-img-top" alt="two men with looking at a laptop">
     </mat-grid-tile>
   </mat-grid-list>
   
   <div class="bounds">
     <div class="content" fxLayout="row" fxLayout.xs="column" fxFlexFill>
-     
       <div fxFlex="25" class="sec sec4" fxFlex.xs="25">
         <div class="sub-sec">
           <mat-icon>facebook</mat-icon>
@@ -35,29 +40,29 @@
         <p>Discovering your skills is good but developing same is better and we are here for you.</p>
         </div>
         <div class="sec-btn">
-          <a href="#"><mat-icon class="btn-icon">outbond</mat-icon></a>
+          <a href="#"><mat-icon class="btn-icon">arrow_circle_up</mat-icon></a>
         </div>
       </div>
 
       <div fxFlex="25" class="sec sec4" fxFlex.xs="25">
         <div class="sub-sec">
-          <mat-icon>facebook</mat-icon>
-        <h3>Inormal</h3>
+          <mat-icon>groups</mat-icon>
+        <h3>Informal</h3>
         <p>Get to learn new skills that would get you started and equipped.</p>
         </div>
         <div class="sec-btn">
-          <a href="#"><mat-icon class="btn-icon">outbond</mat-icon></a>
+          <a href="#"><mat-icon class="btn-icon">arrow_circle_up</mat-icon></a>
         </div>
       </div>
       
       <div fxFlex="25" class="sec sec4" fxFlex.xs="25">
         <div class="sub-sec">
-          <mat-icon>facebook</mat-icon>
-        <h3>Inormal</h3>
+          <mat-icon>groups</mat-icon>
+        <h3>Informal</h3>
         <p>Get to learn new skills that would get you started and equipped.</p>
         </div>
         <div class="sec-btn">
-          <a href="#"><mat-icon class="btn-icon">outbond</mat-icon></a>
+          <a href="#"><mat-icon class="btn-icon">arrow_circle_up</mat-icon></a>
         </div>
       </div>
 
@@ -68,72 +73,76 @@
         <p>Have you been searching for a tutorial platform for your school work?</p>
         </div>
         <div class="sec-btn">
-          <a href="#"><mat-icon class="btn-icon">outbond</mat-icon></a>
+          <a href="#"><mat-icon class="btn-icon">arrow_circle_up</mat-icon></a>
         </div>
       </div>
-
-
     </div>
   </div>
-
-  
-
-
-    <mat-grid-list cols="2" rowHeight="2:1">
+    <mat-grid-list cols="2" rowHeight="3:2">
       <mat-grid-tile>
         <img src="assets/images/wole.png" class="card-img-top" alt="two men with looking at a laptop">
       </mat-grid-tile>
-      <mat-grid-tile>
-        <div>
-          <h3>Be an Instructor today</h3>
-          <p>Insructors from all around the world take you through a stress free and amazing learning process.</p>
-          <p>Want to be an Instructor?
-            <a mat-flat-button routerLink="#" class="">Register</a>
-          </p>
-        </div>
+      <mat-grid-tile class="gc-container">
+        <mat-card class="card-wrap-two">
+          <mat-card-header>
+            <mat-card-title class="c-title">Be an Instructor today</mat-card-title>
+          </mat-card-header>
+          <mat-card-content class="c-content">
+            <p>
+              Insructors from all around the world take you through a stress free and amazing learning process.
+            </p>
+            <p>Want to be an Instructor?
+              <a mat-flat-button routerLink="#" class="">Register</a>
+            </p>
+          </mat-card-content>
+        </mat-card>
       </mat-grid-tile>
     </mat-grid-list>
+    
 
-    <mat-grid-list cols="2" rowHeight="2:1">
-      <mat-grid-tile>
-        <div class="col talk">
-          <h3>Talk with us</h3>
-          <p>We are here to respond</p>
-          <p>+234-00-000-000-00</p>
-          <p>unveilinfo@gmail.com</p>
-        </div>
-      </mat-grid-tile>
-
-      <mat-grid-tile>
-          <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col form">
-              <div class="input-group input-group-sm mb-4">
-                <span class="input-group-text" id="inputGroup-sizing-sm">First Name</span>
-                <input type="text" class="form-control" aria-label="" aria-describedby="inputGroup-sizing-sm">
-              </div>
-              <div class="input-group input-group-sm mb-4">
-                <span class="input-group-text" id="inputGroup-sizing-sm">Last Name</span>
-                <input type="text" class="form-control" aria-label="" aria-describedby="inputGroup-sizing-sm">
-              </div>
-              <div class="input-group input-group-sm mb-4">
-                <span class="input-group-text" id="inputGroup-sizing-sm">Email Address</span>
-                <input type="email" class="form-control" aria-label="" aria-describedby="inputGroup-sizing-sm">
-              </div>
-              <div class="input-group input-group-sm mb-4">
-                <span class="input-group-text" id="inputGroup-sizing-sm">Job Title</span>
-                <input type="text" class="form-control" aria-label="" aria-describedby="inputGroup-sizing-sm">
-              </div>
-              <div class="input-group input-group-sm mb-4">
-                <span class="input-group-text" id="inputGroup-sizing-sm">Phone Number</span>
-                <input type="text" class="form-control" aria-label="" aria-describedby="inputGroup-sizing-sm">
-              </div>
-              <div class="input-group input-group-sm mb-4">
-                <span class="input-group-text" id="inputGroup-sizing-sm">Comment</span>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+    <section class="contact">
+      <mat-grid-list cols="2" rowHeight="2:1">
+        <mat-grid-tile>
+          <div class="col talk">
+            <h3>Talk with us</h3>
+            <p>We are here to respond</p>
+            <p>+234-00-000-000-00</p>
+            <p>unveilinfo@gmail.com</p>
+          </div>
+        </mat-grid-tile>
+  
+        <mat-grid-tile>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col form">
+                <div class="input-group input-group-sm mb-4">
+                  <span class="input-group-text" id="inputGroup-sizing-sm">First Name</span>
+                  <input type="text" class="form-control" aria-label="" aria-describedby="inputGroup-sizing-sm">
+                </div>
+                <div class="input-group input-group-sm mb-4">
+                  <span class="input-group-text" id="inputGroup-sizing-sm">Last Name</span>
+                  <input type="text" class="form-control" aria-label="" aria-describedby="inputGroup-sizing-sm">
+                </div>
+                <div class="input-group input-group-sm mb-4">
+                  <span class="input-group-text" id="inputGroup-sizing-sm">Email Address</span>
+                  <input type="email" class="form-control" aria-label="" aria-describedby="inputGroup-sizing-sm">
+                </div>
+                <div class="input-group input-group-sm mb-4">
+                  <span class="input-group-text" id="inputGroup-sizing-sm">Job Title</span>
+                  <input type="text" class="form-control" aria-label="" aria-describedby="inputGroup-sizing-sm">
+                </div>
+                <div class="input-group input-group-sm mb-4">
+                  <span class="input-group-text" id="inputGroup-sizing-sm">Phone Number</span>
+                  <input type="text" class="form-control" aria-label="" aria-describedby="inputGroup-sizing-sm">
+                </div>
+                <div class="input-group input-group-sm mb-4">
+                  <span class="input-group-text" id="inputGroup-sizing-sm">Comment</span>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                </div>
               </div>
             </div>
-          </div>
-      </mat-grid-tile>
-    </mat-grid-list>
+        </mat-grid-tile>
+      </mat-grid-list>
+    </section>
+    
 </section>
   

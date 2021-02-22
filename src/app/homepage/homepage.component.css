@@ -5,6 +5,7 @@
 .landing-bg {
   background: url(/assets/images/landing.png);
   background-attachment: fixed;
+  background-size: cover;
   color: rgb(102, 88, 88);
   text-align: center;
   height: 100%;
@@ -53,26 +54,58 @@ text-decoration: none;
 }
 
 .wrap {
+  background: #fff;
+}
+
+.card-wrap-one {
+  box-shadow: none;
+}
+
+.card-wrap-two {
+  box-shadow: none;
   background: #160d38;
+  color: #fff;
+}
+
+.c-title {
+  font-size: 3rem;
+}
+
+.c-content {
+  font-size: 1.5rem;
+}
+
+.grid {
+  color: #fff;
+}
+
+
+.grid-content {
+  color: #fff;
+}
+
+.grid-content h3 {
+  font-size: 4rem;
+}
+
+.grid-content p {
+  font-size: 1.5rem;
 }
 
 .content {
   background: #E8C4E6;
-  padding: 2rem;
-  
+  padding: 5rem;
 }
 
 .sec {
   margin: 0rem 1rem;
-  
-  
 }
 
 .sub-sec {
   background: #fff;
-  /* justify-content: space-between; */
   border-radius: 5px 5px 0px 0px;
   padding: 1rem;
+  height: 20rem;
 }
 
 .sec-btn {
@@ -83,8 +116,12 @@ text-decoration: none;
 }
 
 .btn-icon {
-  transform: rotate(45deg);
+  transform: rotate(90deg);
+  color: #fff;
+}
 
+.btn-icon:hover {
+  opacity: .4;
 }
 
 .card-body {
@@ -150,6 +187,15 @@ textarea {
 
 span {
   color: #fff;
+}
+
+.gc-container {
+  background: #160d38;
+}
+
+.contact {
+  background: url(/assets/images/world.png);
+  background-size: cover;
 }
 
 .talk {
