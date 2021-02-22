@@ -179,23 +179,18 @@ textarea {
   background: #160d38;
 }
 
-.section-5 {
-  background: #160d38;
-  color: #fff;
-  padding: 2rem;
-}
-
-span {
-  color: #fff;
-}
-
 .gc-container {
   background: #160d38;
 }
 
-.contact {
+.contact-wrap {
   background: url(/assets/images/world.png);
   background-size: cover;
+  color: #fff;
+}
+
+.contact-container {
+  background: rgba(0, 0, 0, .8);
 }
 
 .talk {
