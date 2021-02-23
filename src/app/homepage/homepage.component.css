@@ -22,6 +22,7 @@
 
 .top-txt {
   letter-spacing: .2rem;
+  margin-bottom: 2rem;
 }
 
 .landing-title {
@@ -31,14 +32,14 @@
   letter-spacing: 2rem;
 }
 
-.landing-button {
+.lg-btn {
   padding: .8rem 6rem;
   font-size: 1.8rem;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   font-weight: 400;
 }
 
-.landing-button:hover {
+.lg-btn:hover {
 border: 2px solid #000;
 background: transparent;
 color: #fff;
@@ -50,22 +51,30 @@ text-decoration: none;
   background: #fff;
 }
 
-.card-wrap-one {
+.card-wrap-one,
+.card-wrap-two {
   box-shadow: none;
+  padding: 10rem;
+}
+
+mat-card-header {
+  margin: 0;
 }
 
 .c-title,
 .col-talk h3 {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
-.c-content,
+.c-content h4 {
+  line-height: 2rem;
+} 
+
 .col-talk p {
-  font-size: 1.5rem;
+  font-size: 18px;
 }
 
 .card-wrap-two {
-  box-shadow: none;
   background: #160d38;
   color: #fff;
 }
@@ -99,8 +108,13 @@ text-decoration: none;
 .sub-sec {
   background: #fff;
   border-radius: 5px 5px 0px 0px;
-  padding: 1rem;
-  height: 20rem;
+  padding: 2rem 4rem;
+  min-height: 20rem;
+  font-size: 3em;
+}
+
+.sub-sec p {
+  font-size: 1.2rem;
 }
 
 .sec-btn {
