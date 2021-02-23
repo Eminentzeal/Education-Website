@@ -154,6 +154,7 @@ mat-card-header {
 
 .form {
   border: 2px solid #fff;
+  border-radius: 0px 0px 5rem 5rem;
   padding: 4rem 3rem;
 }
 
