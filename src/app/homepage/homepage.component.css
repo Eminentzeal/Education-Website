@@ -108,7 +108,7 @@ mat-card-header {
 .sub-sec {
   background: #fff;
   border-radius: 5px 5px 0px 0px;
-  padding: 2rem 4rem;
+  padding: 1rem 4rem;
   min-height: 20rem;
   font-size: 3em;
 }
@@ -148,14 +148,16 @@ mat-card-header {
 }
 
 .card-wrap-three {
-  background: transparent;
+  background: transparent;  
+  min-width: 80%;
+}
+
+.form {
   border: 2px solid #fff;
-  width: 80%;
+  padding: 4rem 3rem;
 }
 
 .input-group-text {
-  /* width: 8rem; */
-  /* margin: 0; */
   background-color: transparent;
   border: none;
   color: #fff;
